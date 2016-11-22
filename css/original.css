@@ -22,7 +22,8 @@
 }
 
 body {
-  background-color: #F5699C;
+  background-color: #01abef;
+  /*background: linear-gradient(rgba(127, 185, 189, 0.85), rgba(228, 183, 137, 0.95), rgba(127, 185, 189, 0.85));*/
 }
 
 section {
@@ -44,12 +45,12 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
 .hero {
-  background-color: #F5699C;
+  background-color: #01abef;
   min-height: 110vh;
 }
 
@@ -118,7 +119,7 @@ section {
   margin-right: 10px;
 }
 
-/* 
+/*
  * About Section
  */
 
@@ -217,7 +218,7 @@ section {
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #01abef;
   color: #fff;
   padding: 30px 0;
 }

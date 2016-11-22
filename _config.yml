@@ -4,11 +4,11 @@
 
 # Ignore this. This is only if you're hosting this in a sub-folder.
 # If you're using GitHub pages, they automatically override this with the right value.
-baseurl: ""
+baseurl: "/lhd"
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "https://mlh.github.io"
+url: "https://pydatadelhi.github.io"
 
 # The ability to use custom themes.
 style:
@@ -16,67 +16,69 @@ style:
 
 # This will help you track who's visiting your website.
 tracking:
-  google_analytics: "UA-43729070-14"
+  google_analytics: "UA-XXXXXXXX-XX"
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "pydatadelhi"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5/6 August 2016"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
+  title:       "MLH Local Hack Day | Delhi 2016"
+  description: "Local Hack Day brings together the students at your school on December 3rd 2016 for 9 hours of learning, building and sharing."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 & 6 August 2016"
-  location:    "Holmdel, NJ, United States"
+  name:        "MLH Local Hack Day | Delhi 2016"
+  description: "Eat. S̶l̶e̶e̶p̶. Code. Repeat."
+  date:        "December 3, 2016"
+  location:    "New Delhi, India"
 
   trust_badge:
     year:   "2017"  # season year
-    region: "eu"    # "na" or "eu"
+    region: "na"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
     links:
       - text: "Apply"
-        my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
-      - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "http://typeform.com"
+        # my_mlh:
+          # client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+          # redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+      # - text: "Sponsor"
+        # href: "mailto:pydatadelhi@gmail.com"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
-
+      Local Hack Day brings together the students at your school on December 3rd 2016 for 9 hours of learning, building and sharing.
+      This Local Hack Day will be focussed on getting people started with development and hackathons in general.
+        We will be having multiple workshops varying from Introduction to Git & Github to learning to build your website and web services in Python
+        and also one small CTF event. Be there if you are quite a beginner or enthusiastic about programming and meeting the fellow developer
+        community around New Delhi. (Be assured, it will be quite a noob-friendly event!)
   # Info Sections
-  info:
-    sections:
-      - image: "images/image1.png"
-        title: "LEARN."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image2.png"
-        title: "BUILD."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image3.png"
-        title: "SHARE."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+  # info:
+  #   sections:
+  #     - image: "images/image1.png"
+  #       title: "LEARN."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
+  #     - image: "images/image2.png"
+  #       title: "BUILD."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
+  #     - image: "images/image3.png"
+  #       title: "SHARE."
+  #       description: >
+  #         We can write something nice with a graphic (as above) to make the event more appealing.
 
   # Frequently asked questions.
   faq:
     - question: "What is a hackathon?"
       answer: >
         A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+        software & hardware hacks over few hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
       answer: >
         Nothing. Attending a hackathon is free.
@@ -86,7 +88,7 @@ event:
         have graduated within the past 12 months are eligible to attend.
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted at [The Founder's Cafe, New Delhi](https://www.google.co.in/maps/place/The+Founders+Cafe/@28.555011,77.264658,15z/data=!4m5!3m4!1s0x0:0x8f6adb4ec3f15246!8m2!3d28.555011!4d77.264658?sa=X&ved=0ahUKEwjlksm0gL3QAhUDQY8KHbdDBV0Q_BIIaDAK).
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -94,6 +96,9 @@ event:
     - question: "Is there a code of conduct?"
       answer: >
         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+    - question: "Any more queries?"
+      answer: >
+        Feel free to contact us via email at [pydatadelhi@gmail.com](mailto:pydatadelhi@gmail.com).
 
   # This is the message you'll receive once you've registered.
   register:
